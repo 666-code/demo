@@ -14,4 +14,11 @@ public class TestController {
         System.out.println("1111");
         return "Hello World!";
     }
+
+    @RequestMapping("/test1")
+    @ResponseBody
+    public String test1() {
+        System.out.println("1111");
+        return "Hello World!";
+    }
 }
